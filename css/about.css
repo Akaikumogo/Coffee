@@ -1,0 +1,238 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.screen {
+  width: 1350px;
+  height: 636px;
+  margin: 0 auto;
+}
+.screen .header {
+  width: 100%;
+}
+.screen .header .header-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.screen .header .header-container .nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
+.screen .header .header-container .nav .nav-logo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen .header .header-container .nav .nav-list-block {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.screen .header .header-container .nav .nav-list-block .nav-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.screen .header .header-container .nav .nav-list-block .nav-list .nav-list-itm {
+  list-style: none;
+  padding-left: 65px;
+}
+.screen .header .header-container .nav .nav-list-block .nav-list .nav-list-itm a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #83888f;
+}
+.screen .header .header-container .hero {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/Bitmap (1).png");
+  background-size: cover;
+  border-radius: 10px;
+}
+.screen .header .header-container .hero .hero-container {
+  width: 50%;
+  height: 80%;
+  margin-top: 180px;
+  margin-left: 100px;
+}
+.screen .header .header-container .hero .hero-container h1 {
+  font-size: 50pt;
+  color: #fefcf7;
+}
+.screen .header .header-container .hero .hero-container p {
+  color: #fefcf7;
+  line-height: 26px;
+  opacity: 0.8;
+}
+.screen .main {
+  width: 100%;
+}
+.screen .main .our_container {
+  width: 90%;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.screen .main .our_container .left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.screen .main .our_container .left img {
+  padding-right: 50px;
+}
+.screen .main .our_container .right {
+  width: 40%;
+}
+.screen .main .our_container .right h1 {
+  margin-bottom: 25px;
+}
+.screen .main .quality {
+  width: 100%;
+  height: 600px;
+}
+.screen .main .quality .quality-container {
+  width: 90%;
+  height: 400px;
+  border-radius: 10px;
+  background: #333d4b;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.screen .main .quality .quality-container .left {
+  width: 40%;
+  color: #fefcf7;
+}
+.screen .main .quality .quality-container .left h1 {
+  padding-bottom: 20px;
+}
+.screen .main .quality .quality-container .right {
+  width: 40%;
+  position: relative;
+}
+.screen .main .quality .quality-container .right img {
+  position: absolute;
+  top: -350px;
+  right: 20px;
+}
+.screen .main .how {
+  width: 100%;
+  height: 500px;
+}
+.screen .main .how .how-container {
+  width: 75%;
+  height: 82.5%;
+  margin: 0 auto;
+}
+.screen .main .how .how-container h1 {
+  color: #83888f;
+  margin-bottom: 100px;
+}
+.screen .main .how .how-container .proccers {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.screen .main .how .how-container .proccers .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 30px;
+}
+.screen .main .how .how-container .proccers .column img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+.screen .main .how .how-container .proccers .column h1 {
+  font-size: 38pt;
+  color: #fdd6ba;
+  margin-bottom: 30px;
+}
+.screen .main .how .how-container .proccers .column p {
+  margin-bottom: 30px;
+}
+.screen .main .how .how-container .proccers .cc {
+  margin-left: 50px;
+}
+.screen .main .footer {
+  width: 100%;
+  height: 109px;
+}
+.screen .main .footer .footer-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  background: #333d4b;
+}
+.screen .main .footer .footer-container .footer-logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.screen .main .footer .footer-container .footer-logo img {
+  cursor: pointer;
+}
+.screen .main .footer .footer-container .footer-list {
+  width: 30%;
+  height: 100%;
+}
+.screen .main .footer .footer-container .footer-list .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.screen .main .footer .footer-container .footer-list .list .list-itm {
+  list-style: none;
+  padding-right: 12px;
+}
+.screen .main .footer .footer-container .footer-list .list .list-itm a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #83888f;
+  cursor: pointer;
+}
+.screen .main .footer .footer-container .footer-social {
+  width: 15%;
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=about.css.map */
